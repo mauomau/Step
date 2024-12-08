@@ -1,0 +1,155 @@
+@font-face {
+    font-family: RobotoSlab;
+    src: url(./RobotoSlab-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: RobotoSlab;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.titre {
+    margin: 0;
+    font-size: 30px;
+    color: #333;
+}
+
+.titre1{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.image {
+    height: auto;
+    width: 10%;
+    border-radius: 1000px;
+}
+
+.step {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.step-content {
+    display: none ;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0  2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.step-content.active {
+    display: flex;
+}
+
+.group {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+    margin: 2rem  auto 0rem auto;
+    font-size: 16px;
+    color: #555;
+}
+
+.champ {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.bouton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.group.radio-group{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+}
+
+.group.radio-group .label{
+    align-items: center;
+    margin: 1rem auto !important;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.radio-group .label {
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto !important;
+}
+
+.btn:hover {
+    background-color: #01458d;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragraphe {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.paragraphe.special {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.score {
+    margin-top: 20px;
+    text-align: center;
+}
